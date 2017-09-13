@@ -1,0 +1,6 @@
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\2017_09_13_consolApp\bin\Debug\2017_09_13_consolApp.exe.config
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\2017_09_13_consolApp\bin\Debug\2017_09_13_consolApp.exe
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\2017_09_13_consolApp\bin\Debug\2017_09_13_consolApp.pdb
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\2017_09_13_consolApp\obj\Debug\2017_09_13_consolApp.csprojResolveAssemblyReference.cache
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\2017_09_13_consolApp\obj\Debug\2017_09_13_consolApp.exe
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\2017_09_13_consolApp\obj\Debug\2017_09_13_consolApp.pdb
