@@ -42,10 +42,5 @@ namespace _2017_09_13_consolApp
             }
             return story;
         }
-
-        public void findLastCharacter()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
