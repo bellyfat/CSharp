@@ -1,0 +1,9 @@
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\StorytellerTests\obj\Debug\StorytellerTests.csprojResolveAssemblyReference.cache
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\StorytellerTests\bin\Debug\StorytellerTests.dll
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\StorytellerTests\bin\Debug\StorytellerTests.pdb
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\StorytellerTests\bin\Debug\2017_09_13_consolApp.exe
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\StorytellerTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\StorytellerTests\bin\Debug\2017_09_13_consolApp.pdb
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\StorytellerTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\StorytellerTests\obj\Debug\StorytellerTests.dll
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\StorytellerTests\obj\Debug\StorytellerTests.pdb

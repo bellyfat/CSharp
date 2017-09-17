@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateHandlerTests", "DateHan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PurchaseCalculationTests", "PurchaseCalculationTests\PurchaseCalculationTests.csproj", "{849D5409-DFA5-4491-B8F6-F890B1080500}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorytellerTests", "StorytellerTests\StorytellerTests.csproj", "{8B422B24-4BBF-4CA2-BCF7-55CEAD2892FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{849D5409-DFA5-4491-B8F6-F890B1080500}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{849D5409-DFA5-4491-B8F6-F890B1080500}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{849D5409-DFA5-4491-B8F6-F890B1080500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B422B24-4BBF-4CA2-BCF7-55CEAD2892FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B422B24-4BBF-4CA2-BCF7-55CEAD2892FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B422B24-4BBF-4CA2-BCF7-55CEAD2892FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B422B24-4BBF-4CA2-BCF7-55CEAD2892FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
