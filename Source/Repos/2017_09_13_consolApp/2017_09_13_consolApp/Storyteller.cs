@@ -34,8 +34,7 @@ namespace _2017_09_13_consolApp
             {
                 story += NotscaryContinued;
             }
-
-
+            
             if (willBeScary == true && ageOfChild < 5)
             {
                 story = "Unga barn ska inte bli skrämda.";
