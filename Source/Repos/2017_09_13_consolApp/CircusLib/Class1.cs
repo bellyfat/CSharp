@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -41,8 +42,10 @@ namespace CircusLib
         }
         public override string ToString()
         {
-            return String.Format("Cirkusen {0} har {1} artister. {2}", 
+            string result = String.Format("Cirkusen {0} har {1} artister. {2}",
                 Name, artistDictonary.Count, listPerformances());
+            Debug.WriteLine(result);
+            return result;
         }
     }
 }
