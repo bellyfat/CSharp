@@ -28,7 +28,7 @@ namespace CircusLib
             string performancesstring = "";
             for (int x = 0; x < artistDictonary.Count; x++)
             {
-                string timesvar = artistDictonary.ElementAt(x).Value > 1 || artistDictonary.ElementAt(x).Value == 0 ? "gånger" : "gång";
+                string timesvar = artistDictonary.ElementAt(x).Value == 1 ? "gång" : "gånger";
 
                 performancesstring += artistDictonary.ElementAt(x).Key.Name + " har uppträtt " 
                     + artistDictonary.ElementAt(x).Value.ToString() + " " + timesvar + ".";
