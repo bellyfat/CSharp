@@ -28,7 +28,7 @@ namespace CircusLib
             string performancesstring = "";
             for (int x = 0; x < artistDictonary.Count; x++)
             {
-                string timesvar = artistDictonary.ElementAt(x).Value > 1 ? "gånger" : "gång";
+                string timesvar = artistDictonary.ElementAt(x).Value > 1 || artistDictonary.ElementAt(x).Value == 0 ? "gånger" : "gång";
 
                 performancesstring += artistDictonary.ElementAt(x).Key.Name + " har uppträtt " 
                     + artistDictonary.ElementAt(x).Value.ToString() + " " + timesvar + ".";
@@ -41,7 +41,6 @@ namespace CircusLib
         }
         public override string ToString()
         {
-            //return "Cirkusen Elefanten har 2 artister. Clownen Sursktratt har uppträtt 1 gång. Lindansaren Repo har uppträtt 2 gånger.";
             return String.Format("Cirkusen {0} har {1} artister. {2}", 
                 Name, artistDictonary.Count, listPerformances());
         }

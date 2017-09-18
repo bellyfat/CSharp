@@ -28,5 +28,31 @@ namespace CircusTestsLib
             // Assert
             Assert.AreEqual(expected, actual);
         }
+        [TestMethod]
+        public void TestCircusWithFireEntertainers()
+        {
+            // Arrange
+            Circus sut = new Circus("Elefanten");
+            Artist clown = new Artist("Clownen Surskratt");
+            Artist lindansare = new Artist("Linsdansaren Repo");
+            Artist firebreather = new Artist("Eldsprutare Peter");
+            Artist fireentertainer = new Artist("Eldunderhållare Magnus");
+            sut.Employ(clown);
+            sut.Employ(lindansare);
+            sut.Employ(firebreather);
+            sut.Employ(fireentertainer);
+            sut.ArtistPerformance(clown);
+            sut.ArtistPerformance(lindansare);
+            sut.ArtistPerformance(lindansare);
+            sut.ArtistPerformance(firebreather);
+            string expected = "Cirkusen Elefanten har 4 artister. Clownen Surskratt har uppträtt 1 gång. Linsdansaren Repo har uppträtt 2 gånger. Eldsprutare Peter har uppträtt 1 gång. Eldunderhållare Magnus har uppträtt 0 gånger.";
+
+
+            // Act
+            string actual = sut.ToString();
+
+            // Assert
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
