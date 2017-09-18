@@ -21,6 +21,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCartTests", "Shoppi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoryTellerWindowsApp", "StoryTellerWindowsApp\StoryTellerWindowsApp.csproj", "{895F7919-686B-4351-B5CA-3EBCCDA4B893}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Circus", "Circus", "{EE8A3181-68D9-42F6-8CF9-D8A95EAE0D39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircusLib", "CircusLib\CircusLib.csproj", "{6A828AE1-4B0F-44A1-8E3A-5AE31451BB84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircusTestsLib", "CircusTestsLib\CircusTestsLib.csproj", "{3D1B2126-6EF5-478A-9083-B594871E4079}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +65,14 @@ Global
 		{895F7919-686B-4351-B5CA-3EBCCDA4B893}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{895F7919-686B-4351-B5CA-3EBCCDA4B893}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{895F7919-686B-4351-B5CA-3EBCCDA4B893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A828AE1-4B0F-44A1-8E3A-5AE31451BB84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A828AE1-4B0F-44A1-8E3A-5AE31451BB84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A828AE1-4B0F-44A1-8E3A-5AE31451BB84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A828AE1-4B0F-44A1-8E3A-5AE31451BB84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D1B2126-6EF5-478A-9083-B594871E4079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1B2126-6EF5-478A-9083-B594871E4079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D1B2126-6EF5-478A-9083-B594871E4079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D1B2126-6EF5-478A-9083-B594871E4079}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,5 +80,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F3A1286D-7D8F-4A4B-B0EB-4A580DBC31D0} = {BD53EE02-5E79-45BC-AC9F-938F70584597}
 		{322D392E-8419-41FE-B207-7571F6B574A2} = {BD53EE02-5E79-45BC-AC9F-938F70584597}
+		{6A828AE1-4B0F-44A1-8E3A-5AE31451BB84} = {EE8A3181-68D9-42F6-8CF9-D8A95EAE0D39}
+		{3D1B2126-6EF5-478A-9083-B594871E4079} = {EE8A3181-68D9-42F6-8CF9-D8A95EAE0D39}
 	EndGlobalSection
 EndGlobal
