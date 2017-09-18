@@ -8,11 +8,20 @@ namespace ShoppingCartApp
 {
     public class Customer
     {
-        public string Name { get; set; }
+        public string firstname;
+        public string lastname;
 
-        public Customer(string name)
+        public string Name
         {
-            this.Name = name;
+            get
+            {
+                return firstname + " " +  lastname;
+            }
+        }
+        public Customer(string firstname, string lastname)
+        {
+            this.firstname = firstname;
+            this.lastname = lastname;
         }
     }
 }

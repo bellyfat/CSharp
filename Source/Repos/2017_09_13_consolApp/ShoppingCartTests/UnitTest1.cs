@@ -11,7 +11,7 @@ namespace ShoppingCartTests
         public void ConfirmOrder()
         {
             // Arrange
-            Customer testCustomer = new Customer("Peter Johansson");
+            Customer testCustomer = new Customer("Peter", "Andersson");
             Product testLaptop = new Product("laptop");
             testLaptop.Price = 400;
 
@@ -24,7 +24,7 @@ namespace ShoppingCartTests
             sut.AddProduct(testLaptop);
             sut.AddProduct(testScreen);
 
-            string expected = "Peter Johansson har beställt varor för 1900 SEK";
+            string expected = "Peter Andersson har beställt varor för 1900 SEK";
 
             // Act
             sut.Order();
