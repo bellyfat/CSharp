@@ -34,9 +34,9 @@
             // 
             // btnThrowDices
             // 
-            this.btnThrowDices.Location = new System.Drawing.Point(110, 107);
+            this.btnThrowDices.Location = new System.Drawing.Point(14, 12);
             this.btnThrowDices.Name = "btnThrowDices";
-            this.btnThrowDices.Size = new System.Drawing.Size(75, 23);
+            this.btnThrowDices.Size = new System.Drawing.Size(274, 56);
             this.btnThrowDices.TabIndex = 0;
             this.btnThrowDices.Text = "Throw Dices";
             this.btnThrowDices.UseVisualStyleBackColor = true;
@@ -44,11 +44,11 @@
             // 
             // lbFeedback
             // 
-            this.lbFeedback.AutoSize = true;
-            this.lbFeedback.Location = new System.Drawing.Point(12, 190);
-            this.lbFeedback.MaximumSize = new System.Drawing.Size(0, 60);
+            this.lbFeedback.Location = new System.Drawing.Point(12, 82);
+            this.lbFeedback.MaximumSize = new System.Drawing.Size(400, 400);
+            this.lbFeedback.MinimumSize = new System.Drawing.Size(200, 100);
             this.lbFeedback.Name = "lbFeedback";
-            this.lbFeedback.Size = new System.Drawing.Size(35, 13);
+            this.lbFeedback.Size = new System.Drawing.Size(277, 100);
             this.lbFeedback.TabIndex = 1;
             this.lbFeedback.Text = "label1";
             // 
@@ -56,13 +56,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(625, 261);
+            this.ClientSize = new System.Drawing.Size(300, 196);
             this.Controls.Add(this.lbFeedback);
             this.Controls.Add(this.btnThrowDices);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Throw Dice Game";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
