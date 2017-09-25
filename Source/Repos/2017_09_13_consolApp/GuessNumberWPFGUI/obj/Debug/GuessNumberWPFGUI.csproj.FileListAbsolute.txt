@@ -1,0 +1,16 @@
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\GuessNumberWPFGUI\bin\Debug\GuessNumberWPFGUI.exe.config
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\GuessNumberWPFGUI\bin\Debug\GuessNumberWPFGUI.exe
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\GuessNumberWPFGUI\bin\Debug\GuessNumberWPFGUI.pdb
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\GuessNumberWPFGUI\bin\Debug\GuessNumberLib.dll
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\GuessNumberWPFGUI\bin\Debug\GuessNumberLib.pdb
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\GuessNumberWPFGUI\obj\Debug\GuessNumberWPFGUI.csprojResolveAssemblyReference.cache
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\GuessNumberWPFGUI\obj\Debug\MainWindow.g.cs
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\GuessNumberWPFGUI\obj\Debug\App.g.cs
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\GuessNumberWPFGUI\obj\Debug\GuessNumberWPFGUI_MarkupCompile.cache
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\GuessNumberWPFGUI\obj\Debug\GuessNumberWPFGUI_MarkupCompile.lref
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\GuessNumberWPFGUI\obj\Debug\MainWindow.baml
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\GuessNumberWPFGUI\obj\Debug\GuessNumberWPFGUI.g.resources
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\GuessNumberWPFGUI\obj\Debug\GuessNumberWPFGUI.Properties.Resources.resources
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\GuessNumberWPFGUI\obj\Debug\GuessNumberWPFGUI.csproj.GenerateResource.Cache
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\GuessNumberWPFGUI\obj\Debug\GuessNumberWPFGUI.exe
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\GuessNumberWPFGUI\obj\Debug\GuessNumberWPFGUI.pdb

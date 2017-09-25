@@ -59,7 +59,6 @@ namespace GuessNumberWindowsForm
                 lblFeedback.Text = game.Feedback;
                 tbUserGuessNumber.Text = string.Empty;
             }
-
         }
     }
 }
