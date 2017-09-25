@@ -1,0 +1,9 @@
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\GuessNumberTestsLib\bin\Debug\GuessNumberTestsLib.dll
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\GuessNumberTestsLib\bin\Debug\GuessNumberTestsLib.pdb
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\GuessNumberTestsLib\bin\Debug\GuessNumberLib.dll
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\GuessNumberTestsLib\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\GuessNumberTestsLib\bin\Debug\GuessNumberLib.pdb
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\GuessNumberTestsLib\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\GuessNumberTestsLib\obj\Debug\GuessNumberTestsLib.csprojResolveAssemblyReference.cache
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\GuessNumberTestsLib\obj\Debug\GuessNumberTestsLib.dll
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\GuessNumberTestsLib\obj\Debug\GuessNumberTestsLib.pdb
