@@ -8,13 +8,21 @@ namespace DiceGameLib
 {
     public class DiceGame
     {
-        Dice dice1 = new Dice();
-        Dice dice2 = new Dice();
+        Dice dice1;
+        Dice dice2;
+        public DiceGame(Random random)
+        {
+            dice1 = new Dice(random);
+            dice2 = new Dice(random);
+        }
+
+
         private int throws;
         private int totalDots;
-
+        
         public void ThrowDices()
         {
+            throws++;
             dice1.ThrowDice();
             dice2.ThrowDice();
 
@@ -34,9 +42,10 @@ namespace DiceGameLib
             {                
                 if(YouAreAWinner)
                 return $"Well done you win, you got 7! You threw the dices and got {totalDots}! First dice got {dice1.CurrentNumberOfDots} and the second dice got {dice2.CurrentNumberOfDots} after {throws} tries.";
-
+                else if(YouAreAWinner == false && throws > 0)
+                    return $"You threw the dices and got {totalDots}! First dice got {dice1.CurrentNumberOfDots} and the second dice got {dice2.CurrentNumberOfDots} after {throws} tries.";
                 else
-                return $"You threw the dices and got {totalDots}! First dice got {dice1.CurrentNumberOfDots} and the second dice got {dice2.CurrentNumberOfDots} after {throws} tries.";
+                return "Throw the dices and try get 7";
             }
         }
         public bool YouAreAWinner

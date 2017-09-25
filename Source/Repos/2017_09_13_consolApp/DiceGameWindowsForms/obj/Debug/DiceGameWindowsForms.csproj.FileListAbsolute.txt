@@ -1,0 +1,11 @@
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\DiceGameWindowsForms\bin\Debug\DiceGameWindowsForms.exe.config
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\DiceGameWindowsForms\bin\Debug\DiceGameWindowsForms.exe
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\DiceGameWindowsForms\bin\Debug\DiceGameWindowsForms.pdb
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\DiceGameWindowsForms\bin\Debug\DiceGameLib.dll
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\DiceGameWindowsForms\bin\Debug\DiceGameLib.pdb
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\DiceGameWindowsForms\obj\Debug\DiceGameWindowsForms.csprojResolveAssemblyReference.cache
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\DiceGameWindowsForms\obj\Debug\DiceGameWindowsForms.Form1.resources
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\DiceGameWindowsForms\obj\Debug\DiceGameWindowsForms.Properties.Resources.resources
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\DiceGameWindowsForms\obj\Debug\DiceGameWindowsForms.csproj.GenerateResource.Cache
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\DiceGameWindowsForms\obj\Debug\DiceGameWindowsForms.exe
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\DiceGameWindowsForms\obj\Debug\DiceGameWindowsForms.pdb

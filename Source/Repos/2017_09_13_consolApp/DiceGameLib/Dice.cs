@@ -10,10 +10,14 @@ namespace DiceGameLib
     {
         private int numberOfDots = 6;
         private int currentNumberOfDots = 0;
+        private Random random;
 
+        public Dice(Random random)
+        {
+            this.random = random;
+        }
         public void ThrowDice()
         {
-            Random random = new Random();
             currentNumberOfDots = random.Next(1, this.numberOfDots);
         }
         // for testing
@@ -28,6 +32,5 @@ namespace DiceGameLib
                 return currentNumberOfDots;
             }
         }
-
     }
 }
