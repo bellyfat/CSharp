@@ -6,3 +6,4 @@ C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\PictureSelectSlideShow\obj
 C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\PictureSelectSlideShow\obj\Debug\PictureSelectSlideShow.csproj.GenerateResource.Cache
 C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\PictureSelectSlideShow\obj\Debug\PictureSelectSlideShow.exe
 C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\PictureSelectSlideShow\obj\Debug\PictureSelectSlideShow.pdb
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\PictureSelectSlideShow\obj\Debug\PictureSelectSlideShow.csprojResolveAssemblyReference.cache

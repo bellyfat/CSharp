@@ -53,6 +53,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Slideshow", "Slideshow", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PictureSelectSlideShow", "PictureSelectSlideShow\PictureSelectSlideShow.csproj", "{371FB42D-F4C6-425E-BA50-1FA281A90181}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomerForm", "CustomerForm", "{E7974B19-3D87-4F39-BF4D-2FEF617D2250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerForm", "CustomerForm\CustomerForm.csproj", "{108B1798-9B0A-4B28-8CF3-CC9340159119}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +139,10 @@ Global
 		{371FB42D-F4C6-425E-BA50-1FA281A90181}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{371FB42D-F4C6-425E-BA50-1FA281A90181}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{371FB42D-F4C6-425E-BA50-1FA281A90181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{108B1798-9B0A-4B28-8CF3-CC9340159119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{108B1798-9B0A-4B28-8CF3-CC9340159119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{108B1798-9B0A-4B28-8CF3-CC9340159119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{108B1798-9B0A-4B28-8CF3-CC9340159119}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -153,5 +161,6 @@ Global
 		{FD9C47AA-89B3-4E26-98AF-CAE911497C48} = {2C494276-6FDB-4112-A5CC-312289E3C869}
 		{89C99FDC-D898-478C-8503-2B265ACE5306} = {BC89B5B2-C801-4FA1-AAA0-CA92B768806F}
 		{371FB42D-F4C6-425E-BA50-1FA281A90181} = {210F4867-E922-4DBA-8472-2C79EF687C8B}
+		{108B1798-9B0A-4B28-8CF3-CC9340159119} = {E7974B19-3D87-4F39-BF4D-2FEF617D2250}
 	EndGlobalSection
 EndGlobal
