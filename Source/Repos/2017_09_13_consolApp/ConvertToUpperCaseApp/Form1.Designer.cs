@@ -37,6 +37,9 @@
             this.lbSelectFileOne = new System.Windows.Forms.Label();
             this.lbSelectFileTwo = new System.Windows.Forms.Label();
             this.btnSaveContent = new System.Windows.Forms.Button();
+            this.cbbListTxtFiles = new System.Windows.Forms.ComboBox();
+            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
+            this.btnFolderSelect = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnSelectFileOne
@@ -88,11 +91,31 @@
             this.btnSaveContent.Visible = false;
             this.btnSaveContent.Click += new System.EventHandler(this.btnSaveContent_Click);
             // 
+            // cbbListTxtFiles
+            // 
+            this.cbbListTxtFiles.FormattingEnabled = true;
+            this.cbbListTxtFiles.Location = new System.Drawing.Point(151, 156);
+            this.cbbListTxtFiles.Name = "cbbListTxtFiles";
+            this.cbbListTxtFiles.Size = new System.Drawing.Size(121, 21);
+            this.cbbListTxtFiles.TabIndex = 5;
+            // 
+            // btnFolderSelect
+            // 
+            this.btnFolderSelect.Location = new System.Drawing.Point(151, 127);
+            this.btnFolderSelect.Name = "btnFolderSelect";
+            this.btnFolderSelect.Size = new System.Drawing.Size(75, 23);
+            this.btnFolderSelect.TabIndex = 6;
+            this.btnFolderSelect.Text = "Open Folder";
+            this.btnFolderSelect.UseVisualStyleBackColor = true;
+            this.btnFolderSelect.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.btnFolderSelect);
+            this.Controls.Add(this.cbbListTxtFiles);
             this.Controls.Add(this.btnSaveContent);
             this.Controls.Add(this.lbSelectFileTwo);
             this.Controls.Add(this.lbSelectFileOne);
@@ -116,6 +139,9 @@
         private System.Windows.Forms.Label lbSelectFileOne;
         private System.Windows.Forms.Label lbSelectFileTwo;
         private System.Windows.Forms.Button btnSaveContent;
+        private System.Windows.Forms.ComboBox cbbListTxtFiles;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
+        private System.Windows.Forms.Button btnFolderSelect;
     }
 }
 

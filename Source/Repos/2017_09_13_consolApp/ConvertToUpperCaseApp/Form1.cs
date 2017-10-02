@@ -21,7 +21,7 @@ namespace ConvertToUpperCaseApp
 
         public void ValidateSelectUpload(OpenFileDialog openfiledialog)
         {
-            if (Path.GetExtension(openfiledialog.FileName) != "txt")
+            if (Path.GetExtension(openfiledialog.FileName) != ".txt")
             { 
                 this.FileUploadError = true;
                 openfiledialog.FileName = "";
@@ -74,6 +74,16 @@ namespace ConvertToUpperCaseApp
                 {
                     MessageBox.Show("Error. Please make sure you have selected two txt files");
                 }
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            folderBrowserDialog1.ShowDialog();
+            string path = folderBrowserDialog1.SelectedPath;
+            foreach (string fileName in Directory.GetFiles(path, "*.txt"))
+            {
+                cbbListTxtFiles.Items.Add(fileName);
             }
         }
     }

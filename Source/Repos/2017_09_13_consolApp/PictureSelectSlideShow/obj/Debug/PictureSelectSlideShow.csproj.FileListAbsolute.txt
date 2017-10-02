@@ -1,0 +1,8 @@
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\PictureSelectSlideShow\bin\Debug\PictureSelectSlideShow.exe.config
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\PictureSelectSlideShow\bin\Debug\PictureSelectSlideShow.exe
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\PictureSelectSlideShow\bin\Debug\PictureSelectSlideShow.pdb
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\PictureSelectSlideShow\obj\Debug\PictureSelectSlideShow.Form1.resources
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\PictureSelectSlideShow\obj\Debug\PictureSelectSlideShow.Properties.Resources.resources
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\PictureSelectSlideShow\obj\Debug\PictureSelectSlideShow.csproj.GenerateResource.Cache
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\PictureSelectSlideShow\obj\Debug\PictureSelectSlideShow.exe
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\PictureSelectSlideShow\obj\Debug\PictureSelectSlideShow.pdb

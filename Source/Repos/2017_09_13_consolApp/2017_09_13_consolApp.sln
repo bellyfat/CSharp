@@ -49,6 +49,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConvertToUpperCase", "Conve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertToUpperCaseApp", "ConvertToUpperCaseApp\ConvertToUpperCaseApp.csproj", "{89C99FDC-D898-478C-8503-2B265ACE5306}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Slideshow", "Slideshow", "{210F4867-E922-4DBA-8472-2C79EF687C8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PictureSelectSlideShow", "PictureSelectSlideShow\PictureSelectSlideShow.csproj", "{371FB42D-F4C6-425E-BA50-1FA281A90181}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,6 +131,10 @@ Global
 		{89C99FDC-D898-478C-8503-2B265ACE5306}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89C99FDC-D898-478C-8503-2B265ACE5306}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89C99FDC-D898-478C-8503-2B265ACE5306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{371FB42D-F4C6-425E-BA50-1FA281A90181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{371FB42D-F4C6-425E-BA50-1FA281A90181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{371FB42D-F4C6-425E-BA50-1FA281A90181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{371FB42D-F4C6-425E-BA50-1FA281A90181}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -144,5 +152,6 @@ Global
 		{3A329E11-B67D-496F-A849-F7A85812A5F6} = {2C494276-6FDB-4112-A5CC-312289E3C869}
 		{FD9C47AA-89B3-4E26-98AF-CAE911497C48} = {2C494276-6FDB-4112-A5CC-312289E3C869}
 		{89C99FDC-D898-478C-8503-2B265ACE5306} = {BC89B5B2-C801-4FA1-AAA0-CA92B768806F}
+		{371FB42D-F4C6-425E-BA50-1FA281A90181} = {210F4867-E922-4DBA-8472-2C79EF687C8B}
 	EndGlobalSection
 EndGlobal
