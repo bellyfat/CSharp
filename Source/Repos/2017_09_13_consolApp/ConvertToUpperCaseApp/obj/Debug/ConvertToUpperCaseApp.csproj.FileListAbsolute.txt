@@ -1,0 +1,9 @@
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\ConvertToUpperCaseApp\bin\Debug\ConvertToUpperCaseApp.exe.config
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\ConvertToUpperCaseApp\bin\Debug\ConvertToUpperCaseApp.exe
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\ConvertToUpperCaseApp\bin\Debug\ConvertToUpperCaseApp.pdb
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\ConvertToUpperCaseApp\obj\Debug\ConvertToUpperCaseApp.csprojResolveAssemblyReference.cache
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\ConvertToUpperCaseApp\obj\Debug\ConvertToUpperCaseApp.Form1.resources
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\ConvertToUpperCaseApp\obj\Debug\ConvertToUpperCaseApp.Properties.Resources.resources
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\ConvertToUpperCaseApp\obj\Debug\ConvertToUpperCaseApp.csproj.GenerateResource.Cache
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\ConvertToUpperCaseApp\obj\Debug\ConvertToUpperCaseApp.exe
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\ConvertToUpperCaseApp\obj\Debug\ConvertToUpperCaseApp.pdb
