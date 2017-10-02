@@ -7,5 +7,8 @@ namespace CustomerForm
         public DateTime Birthday;
         public string Name;
         public string TelNr;
+        public int Order;
+        internal DateTime Timestamp = DateTime.Now;
+                
     }
 }

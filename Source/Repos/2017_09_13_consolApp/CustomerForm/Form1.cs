@@ -30,7 +30,8 @@ namespace CustomerForm
                     customerlist.Add(new Customer {
                         Name = customerinfoparts[0],
                         Birthday = DateTime.Parse(customerinfoparts[1]),
-                        TelNr = customerinfoparts[2]
+                        TelNr = customerinfoparts[2],
+                        Timestamp = DateTime.Parse(customerinfoparts[3])
                     });
                 }
                 streamreader.Close();
@@ -58,7 +59,7 @@ namespace CustomerForm
 
             foreach (Customer customer in customerlist)
             {
-                streamwriter.WriteLine(customer.Name + ";" + customer.Birthday + ";" + customer.TelNr);
+                streamwriter.WriteLine(customer.Name + ";" + customer.Birthday + ";" + customer.TelNr + ";" + customer.Timestamp);
             }
 
             streamwriter.Close();
