@@ -25,7 +25,7 @@ namespace ConvertToUpperCaseApp
             { 
                 this.FileUploadError = true;
                 openfiledialog.FileName = "";
-                MessageBox.Show("Filen kan endast vara txt");
+                MessageBox.Show("File can only be txt");
             }
             else
                 this.FileUploadError = false;
