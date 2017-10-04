@@ -35,11 +35,9 @@ namespace PersonnummerApp
                 CalculatePersonalNumber calcPersonNum = new CalculatePersonalNumber(personnumArr);
                 MessageBox.Show($"Ditt sista nummer är: {calcPersonNum.getLastDigit()}");
             }
+            else
+                MessageBox.Show("Fel inmatning. Kom ihåg att värdet ska vara YYMMDDXXX");
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
