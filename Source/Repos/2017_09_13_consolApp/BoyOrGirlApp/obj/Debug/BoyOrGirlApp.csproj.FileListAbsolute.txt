@@ -1,0 +1,9 @@
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\BoyOrGirlApp\bin\Debug\BoyOrGirlApp.exe.config
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\BoyOrGirlApp\bin\Debug\BoyOrGirlApp.exe
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\BoyOrGirlApp\bin\Debug\BoyOrGirlApp.pdb
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\BoyOrGirlApp\obj\Debug\BoyOrGirlApp.Form1.resources
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\BoyOrGirlApp\obj\Debug\BoyOrGirlApp.Properties.Resources.resources
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\BoyOrGirlApp\obj\Debug\BoyOrGirlApp.csproj.GenerateResource.Cache
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\BoyOrGirlApp\obj\Debug\BoyOrGirlApp.exe
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\BoyOrGirlApp\obj\Debug\BoyOrGirlApp.pdb
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\BoyOrGirlApp\obj\Debug\BoyOrGirlApp.csprojResolveAssemblyReference.cache
