@@ -19,7 +19,6 @@ namespace PersonnummerCalcLib
 
         public int getLastDigit()
         {
-            int firstrowtotal = 0;
             int[] socialtimesresultTimes = new int[socialnumber.Count()];
             int[] socialtimesresultPlus = new int[socialnumber.Count()];
             

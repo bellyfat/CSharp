@@ -23,7 +23,7 @@ namespace PersonnummerApp
         {
             string personnummerWithoutLast = textBox1.Text;
             if (personnummerWithoutLast.Count() == 9 && Regex.IsMatch(personnummerWithoutLast, @"^\d+$"))
-                {
+            {
                 char[] personnumArrChars = personnummerWithoutLast.ToCharArray();
 
                 int[] personnumArr = new int[personnumArrChars.Count()];
@@ -31,10 +31,15 @@ namespace PersonnummerApp
                 {
                     personnumArr[d] = Convert.ToInt32(personnumArrChars[d].ToString());
                 }
-                
+
                 CalculatePersonalNumber calcPersonNum = new CalculatePersonalNumber(personnumArr);
                 MessageBox.Show($"Ditt sista nummer är: {calcPersonNum.getLastDigit()}");
             }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
