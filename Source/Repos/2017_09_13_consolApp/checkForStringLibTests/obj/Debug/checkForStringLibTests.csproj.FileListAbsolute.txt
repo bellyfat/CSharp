@@ -1,0 +1,9 @@
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\checkForStringLibTests\bin\Debug\checkForStringLibTests.dll
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\checkForStringLibTests\bin\Debug\checkForStringLibTests.pdb
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\checkForStringLibTests\bin\Debug\checkForString.dll
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\checkForStringLibTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\checkForStringLibTests\bin\Debug\checkForString.pdb
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\checkForStringLibTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\checkForStringLibTests\obj\Debug\checkForStringLibTests.csprojResolveAssemblyReference.cache
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\checkForStringLibTests\obj\Debug\checkForStringLibTests.dll
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\checkForStringLibTests\obj\Debug\checkForStringLibTests.pdb
