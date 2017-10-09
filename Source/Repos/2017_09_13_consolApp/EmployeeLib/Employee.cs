@@ -18,9 +18,8 @@ namespace EmployeeLib
         public string Convert(string value)
         {
             string pattern = @"(\w+) ([^\""""]*)\""""? (\d{2}) (\d{5}.\d{2}) (\d{3}-\d{7})";
-            string input = @"""Mattias Asplund"" 46 35000.00 070-6186120";
 
-            GroupCollection matchGroups = Regex.Matches(input, pattern)[0].Groups;
+            GroupCollection matchGroups = Regex.Matches(value, pattern)[0].Groups;
             firstName = matchGroups[1].Value;
             secondName = matchGroups[2].Value;
             birthdayAge = matchGroups[3].Value;
