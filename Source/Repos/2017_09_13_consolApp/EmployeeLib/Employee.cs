@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -13,7 +15,7 @@ namespace EmployeeLib
         public string secondName;
         public string PhoneNumber;
         public string birthdayAge;
-        public string salary;
+        public decimal salary;
 
         public string Convert(string value)
         {
@@ -23,7 +25,7 @@ namespace EmployeeLib
             firstName = matchGroups[1].Value;
             secondName = matchGroups[2].Value;
             birthdayAge = matchGroups[3].Value;
-            salary = (matchGroups[4].Value).ToString();
+            salary = decimal.Parse(matchGroups[4].Value, CultureInfo.InvariantCulture);
             PhoneNumber = matchGroups[5].Value;
 
             return infoString();
@@ -38,14 +40,15 @@ namespace EmployeeLib
         {
             get
             {
-                return this.salary.Replace('.', ',') + " SEK";
+                Debug.WriteLine(this.salary.ToString());
+                return this.salary.ToString("F2") + " SEK"; // F2 med två decimaler
             }
         }
         public string BirthdayYear
         {
             get
             {
-                return (DateTime.Today.Year - int.Parse(birthdayAge)).ToString();
+                return (DateTime.Now.Year - int.Parse(birthdayAge)).ToString();
             }
         }
     }

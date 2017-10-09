@@ -11,7 +11,6 @@ namespace EmployeeLibTests
         public void changeStringOrder()
         {
             string input = @"""Mattias Asplund"" 46 35000.00 070-6186120";
-
             Employee employeeOne = new Employee();
             employeeOne.Convert(input);
             Assert.AreEqual("Mattias", employeeOne.firstName.ToString());
