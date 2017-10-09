@@ -1,0 +1,5 @@
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\EducationLib\bin\Debug\EducationLib.dll
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\EducationLib\bin\Debug\EducationLib.pdb
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\EducationLib\obj\Debug\EducationLib.csprojResolveAssemblyReference.cache
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\EducationLib\obj\Debug\EducationLib.dll
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\EducationLib\obj\Debug\EducationLib.pdb
