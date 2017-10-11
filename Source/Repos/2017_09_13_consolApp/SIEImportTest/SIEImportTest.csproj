@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{94909D94-9C47-45D3-AA36-1AE361FDB96C}</ProjectGuid>
+    <ProjectGuid>{0BB9084E-E506-4808-A4CE-AA948A1DB2AD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EducationLibTests</RootNamespace>
-    <AssemblyName>EducationLibTests</AssemblyName>
+    <RootNamespace>SIEImportTest</RootNamespace>
+    <AssemblyName>SIEImportTest</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -50,13 +50,14 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="RecursiveTests.cs" />
+    <Compile Include="RegexMatchCounterTests.cs" />
+    <Compile Include="SIEImportTester.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EducationLib\EducationLib.csproj">
-      <Project>{b4949690-147d-402b-b334-fd8fef905405}</Project>
-      <Name>EducationLib</Name>
+    <ProjectReference Include="..\SIEImportLib\SIEImportLib.csproj">
+      <Project>{1dc17383-376f-46c3-9425-24fdb516ca0d}</Project>
+      <Name>SIEImportLib</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

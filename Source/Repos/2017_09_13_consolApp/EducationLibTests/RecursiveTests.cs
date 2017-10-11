@@ -5,7 +5,7 @@ using EducationLib;
 namespace EducationLibTests
 {
     [TestClass]
-    public class UnitTest1
+    public class RecursiveTests
     {   
         [TestMethod]
         public void TotalHoursOfEducationEvents()
