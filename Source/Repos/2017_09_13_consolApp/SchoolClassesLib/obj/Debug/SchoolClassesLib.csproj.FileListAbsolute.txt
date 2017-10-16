@@ -1,0 +1,5 @@
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SchoolClassesLib\bin\Debug\SchoolClassesLib.dll
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SchoolClassesLib\bin\Debug\SchoolClassesLib.pdb
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SchoolClassesLib\obj\Debug\SchoolClassesLib.csprojResolveAssemblyReference.cache
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SchoolClassesLib\obj\Debug\SchoolClassesLib.dll
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SchoolClassesLib\obj\Debug\SchoolClassesLib.pdb

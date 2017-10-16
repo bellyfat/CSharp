@@ -1,0 +1,9 @@
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SchoolClassesLibTests\bin\Debug\SchoolClassesLibTests.dll
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SchoolClassesLibTests\bin\Debug\SchoolClassesLibTests.pdb
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SchoolClassesLibTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SchoolClassesLibTests\bin\Debug\SchoolClassesLib.dll
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SchoolClassesLibTests\bin\Debug\SchoolClassesLib.pdb
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SchoolClassesLibTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SchoolClassesLibTests\obj\Debug\SchoolClassesLibTests.csprojResolveAssemblyReference.cache
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SchoolClassesLibTests\obj\Debug\SchoolClassesLibTests.dll
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SchoolClassesLibTests\obj\Debug\SchoolClassesLibTests.pdb
