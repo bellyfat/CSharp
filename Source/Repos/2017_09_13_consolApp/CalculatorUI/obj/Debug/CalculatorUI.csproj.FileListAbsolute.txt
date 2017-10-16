@@ -1,0 +1,11 @@
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\CalculatorUI\bin\Debug\CalculatorUI.exe.config
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\CalculatorUI\bin\Debug\CalculatorUI.exe
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\CalculatorUI\bin\Debug\CalculatorUI.pdb
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\CalculatorUI\bin\Debug\CalculatorLib.dll
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\CalculatorUI\bin\Debug\CalculatorLib.pdb
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\CalculatorUI\obj\Debug\CalculatorUI.csprojResolveAssemblyReference.cache
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\CalculatorUI\obj\Debug\CalculatorUI.Form1.resources
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\CalculatorUI\obj\Debug\CalculatorUI.Properties.Resources.resources
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\CalculatorUI\obj\Debug\CalculatorUI.csproj.GenerateResource.Cache
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\CalculatorUI\obj\Debug\CalculatorUI.exe
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\CalculatorUI\obj\Debug\CalculatorUI.pdb

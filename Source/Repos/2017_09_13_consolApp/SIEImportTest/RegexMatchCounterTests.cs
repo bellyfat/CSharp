@@ -67,7 +67,6 @@ namespace SIEImportTest
             string regexPattern = @"#VER";
             RegexOptions options = RegexOptions.Multiline;
             Assert.AreEqual(165, Regex.Matches(contents, regexPattern, options).Count);
-        
         }
     }
 }
