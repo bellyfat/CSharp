@@ -1,0 +1,9 @@
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SIEReadingConsoleApp\bin\Debug\SIEReadingConsoleApp.exe.config
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SIEReadingConsoleApp\bin\Debug\SIEReadingConsoleApp.exe
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SIEReadingConsoleApp\bin\Debug\SIEReadingConsoleApp.pdb
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SIEReadingConsoleApp\bin\Debug\SIEReadingLib.dll
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SIEReadingConsoleApp\bin\Debug\SIEReadingLib.pdb
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SIEReadingConsoleApp\obj\Debug\SIEReadingConsoleApp.csprojResolveAssemblyReference.cache
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SIEReadingConsoleApp\obj\Debug\SIEReadingConsoleApp.exe
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SIEReadingConsoleApp\obj\Debug\SIEReadingConsoleApp.pdb
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SIEReadingConsoleApp\bin\Debug\MATTIAS0_SIE4 2015-09-01 - 2016-08-31.SE.txt

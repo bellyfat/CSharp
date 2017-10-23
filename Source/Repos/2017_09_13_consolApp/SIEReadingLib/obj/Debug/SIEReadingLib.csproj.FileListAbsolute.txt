@@ -1,0 +1,5 @@
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SIEReadingLib\bin\Debug\SIEReadingLib.dll
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SIEReadingLib\bin\Debug\SIEReadingLib.pdb
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SIEReadingLib\obj\Debug\SIEReadingLib.csprojResolveAssemblyReference.cache
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SIEReadingLib\obj\Debug\SIEReadingLib.dll
+C:\Users\Studerande\Source\Repos\2017_09_13_consolApp\SIEReadingLib\obj\Debug\SIEReadingLib.pdb
