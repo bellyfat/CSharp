@@ -11,73 +11,125 @@ namespace SIEReadingLib
 {
     public class SIEReading
     {
-        private string filename;
+        private string content;
         private string pattern;
         public int matchingrows = 0;
+
+        public Dictionary<int, double> accountsDictionary = new Dictionary<int, double>();
+
+        public SIEReading(string content, string pattern)
+        {
+            this.content = content;
+            this.pattern = pattern;
+        }
+
+        public SIEReading(string content)
+        {
+            this.content = content;
+        }
+
+        public List<int> Accounts
+        {
+            get
+            {
+                List<int> accounts = new List<int>();
+                string patternForAccounts = @"(\w{5}) (\d{4})";
+
+                RegexOptions options = RegexOptions.Multiline;
+                Regex regex = new Regex(patternForAccounts, options);
+                MatchCollection match = regex.Matches(content);
+
+                //Match match = Regex.Match(line, patternForAccounts);
+                for (int x = 0; x < match.Count; x++)
+                {
+                    if (match[x].Success)
+                        accounts.Add(Convert.ToInt32(match[x].Groups[2].Value));
+                }
+                return accounts.Distinct().ToList();
+            }
+        }
         public int MatchingRows
         {
             get
             {
-                StreamReader sr;
-                sr = File.OpenText(filename);
+                RegexOptions options = RegexOptions.Multiline;
+                Regex regex = new Regex(pattern, options);
+                MatchCollection match = regex.Matches(content);
 
-                while (true)
+                for (int x = 0; x < match.Count; x++)
                 {
-                    string line = sr.ReadLine();
-                    if (line == null)
-                        break;
-
-                    Match match = Regex.Match(line, pattern);
-                    if (match.Success)
+                    if (match[x].Success)
+                    {
                         matchingrows++;
+                    }
                 }
+
                 return matchingrows;
             }
         }
         List<double> transactions = new List<double>();
-        
-        public SIEReading(string filename, string pattern)
-        {
-            this.filename = filename;
-            this.pattern = pattern;
-        }
+
         public int TotalRowsFromPattern(string pattern)
         {
-            StreamReader sr;
-            sr = File.OpenText(filename);
+            RegexOptions options = RegexOptions.Multiline;
+            Regex regex = new Regex(pattern, options);
+            MatchCollection match = regex.Matches(content);
 
-            while (true)
+            for (int x = 0; x < match.Count; x++)
             {
-                string line = sr.ReadLine();
-                if(line == null)
-                break;
-
-                Match match = Regex.Match(line, pattern);
-                if(match.Success)
-                matchingrows++;
+                if (match[x].Success)
+                {
+                    matchingrows++;
+                }
             }
+         
             return matchingrows;
         }
         public double TotalSumFromPattern()
         {
-            StreamReader sr;
-            sr = File.OpenText(filename);
-
-            while (true)
             {
-                string line = sr.ReadLine();
-                if (line == null)
-                    break;
-
-                Match match = Regex.Match(line, pattern);
-                if (match.Success)
+                RegexOptions options = RegexOptions.Multiline;
+                Regex regex = new Regex(pattern, options);
+                MatchCollection match = regex.Matches(content);
+                
+                for (int x = 0; x < match.Count; x++)
                 {
-                    string convertedLine;
-                    convertedLine = match.Groups[2].Value.Replace('.', ',');
-                    transactions.Add(Convert.ToDouble(convertedLine));
+                    if (match[x].Success)
+                    {
+                        string convertedLine;
+                        convertedLine = match[x].Groups[2].Value.Replace('.', ',');
+                        transactions.Add(Convert.ToDouble(convertedLine));
+                    }
+                }
+
+                return transactions.Sum();
+            }
+        }
+        public double SumFromAccountNumber(int accountNumber)
+        {
+            string pattern = @"#TRANS XXXXXXX {} (.{0,100})".Replace("XXXXXXX", accountNumber.ToString());
+            List<double> totalAccountTransValue = new List<double>();
+
+            RegexOptions options = RegexOptions.Multiline;
+            Regex regex = new Regex(pattern, options);
+            MatchCollection match = regex.Matches(content);
+            
+            for (int x = 0; x < match.Count; x++)
+            {
+                if (match[x].Success)
+                {
+                    totalAccountTransValue.Add(Convert.ToDouble(match[x].Groups[1].Value.Replace('.', ',')));
                 }
             }
-            return transactions.Sum();
+
+            return totalAccountTransValue.Sum();
+        }
+        public void AssignAccountsTotals()
+        {
+            for (int x = 0; x < Accounts.Count; x++)
+            {
+                accountsDictionary.Add(Accounts[x], SumFromAccountNumber(Accounts[x]));
+            }
         }
     }
 }

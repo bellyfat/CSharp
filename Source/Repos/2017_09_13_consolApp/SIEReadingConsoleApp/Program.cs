@@ -1,9 +1,11 @@
 ﻿using SIEReadingLib;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace SIEReadingConsoleApp
@@ -17,9 +19,11 @@ namespace SIEReadingConsoleApp
             
             if(File.Exists(filename))
             { 
-                SIEReading siereading = new SIEReading(filename, @"(#TRANS \d{4}\D{4})(.{0,100})");
+                SIEReading siereading = new SIEReading(File.ReadAllText(filename), @"(#TRANS \d{4}\D{4})(.{0,100})");
                 Console.WriteLine("Rows: " + siereading.MatchingRows);
                 Console.WriteLine("Total value of all transactions: " + siereading.TotalSumFromPattern());
+                siereading.AssignAccountsTotals();
+                Console.WriteLine("Accounts: " + siereading.accountsDictionary.Count.ToString());
             }
             else
                 Console.WriteLine("File does not exist");
